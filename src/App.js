@@ -1,15 +1,26 @@
-import logo from './logo.svg';
+import React from "react";
 import './App.css';
 import Contact from "./components/Contact";
+
 
 function App() {
   return (
       <div className="App">
-        <Contact
-            name="Jhon Doe"
-            avatar="https://avatars0.githubusercontent.com/u/71027725?s=460&u=207ede12fdc8667750014ef0b6658ce046b4fdf4&v=4"
-            online="online"
-        />
+          <Contact
+              name="Jeff Soto"
+              avatar="https://randomuser.me/api/portraits/men/29.jpg"
+              online="online"
+          />
+          <Contact
+              name="Fely Black"
+              avatar="https://randomuser.me/api/portraits/women/87.jpg"
+              online=""
+          />
+          <Contact
+              name="Aly Watts"
+              avatar="https://randomuser.me/api/portraits/women/2.jpg"
+              online="online"
+          />
       </div>
   );
 }
